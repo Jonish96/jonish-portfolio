@@ -1,20 +1,33 @@
+import "./Hero.css";
+
 const Hero = () => {
   return (
-    <section id="home">
-      <p>Hi, I'm</p>
+    <section id="home" className="hero">
+      <div className="hero-container">
+        <p className="hero-intro">Hi, I'm</p>
 
-      <h1>Jonish Prajapati</h1>
+        <h1>Jonish Prajapati</h1>
 
-      <h2>Software Engineer</h2>
+        <h2>
+          Software Engineer specializing in{" "}
+          <span>Java & Full Stack Development</span>
+        </h2>
 
-      <p>
-        I build scalable and reliable enterprise applications using Java,
-        Spring Boot, microservices, and modern frontend technologies.
-      </p>
+        <p className="hero-description">
+          I build scalable and reliable enterprise applications using Java,
+          Spring Boot, microservices, cloud technologies, and modern frontend
+          frameworks.
+        </p>
 
-      <div>
-        <a href="#projects">View My Work</a>
-        <a href="/resume.pdf">Download Resume</a>
+        <div className="hero-actions">
+          <a href="#projects" className="primary-button">
+            View My Work
+          </a>
+
+          <a href="/resume.pdf" className="secondary-button">
+            Download Resume
+          </a>
+        </div>
       </div>
     </section>
   );
