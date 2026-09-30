@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
 
         <div className="hero-actions">
-          <a href="https://github.com/Jonish96" className="primary-button">
+          <a href="#projects" className="primary-button">
             View My Work
           </a>
 
