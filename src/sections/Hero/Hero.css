@@ -64,3 +64,29 @@
   border: 1px solid #444;
   color: #ffffff;
 }
+@media (max-width: 650px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-container {
+    padding: 100px 20px 80px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

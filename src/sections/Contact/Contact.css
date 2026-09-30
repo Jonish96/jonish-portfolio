@@ -1,0 +1,46 @@
+.contact {
+  padding: 120px 24px;
+  border-top: 1px solid #24262b;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  max-width: 700px;
+  font-size: clamp(32px, 4vw, 48px);
+  margin-bottom: 24px;
+}
+
+.contact-description {
+  max-width: 650px;
+  color: #a5a5a5;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 36px;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.contact-links a {
+  padding: 13px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 650px) {
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+  }
+}
