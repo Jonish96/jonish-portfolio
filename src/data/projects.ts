@@ -3,7 +3,8 @@ export interface Project {
   title: string;
   description: string;
   technologies: string[];
-  githubUrl: string;
+  status?: string;
+  githubUrl?: string;
   liveUrl?: string;
 }
 
@@ -20,21 +21,20 @@ export const projects: Project[] = [
       "JPA",
       "PostgreSQL",
     ],
-    githubUrl: "#",
+    status: "In Progress",
+    githubUrl: "https://github.com/Jonish96/order-management",
   },
   {
     id: 2,
-    title: "Payment Processing System",
+    title: "Together Task",
     description:
-      "A distributed payment processing application demonstrating microservices, asynchronous communication, transaction workflows, and resilient backend design.",
+      "A private iPhone and Android task app for two people. It supports personal and shared tasks plus a conversational task creator that asks questions when important details are missing.",
     technologies: [
-      "Java",
-      "Spring Boot",
-      "Kafka",
-      "Microservices",
-      "Docker",
+      "TypeScript",
+      "PlpgSQL",
+      "Supabase",
     ],
-    githubUrl: "#",
+    githubUrl: "https://github.com/Jonish96/together_task",
   },
   {
     id: 3,
@@ -47,6 +47,6 @@ export const projects: Project[] = [
       "Streams",
       "Concurrency",
     ],
-    githubUrl: "#",
+    githubUrl: "https://github.com/Jonish96/java-engineering-labs",
   },
 ];

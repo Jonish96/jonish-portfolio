@@ -14,7 +14,11 @@ const Projects = () => {
             <article className="project-card" key={project.id}>
               <div>
                 <h3>{project.title}</h3>
-
+                {project.status && (
+                <span className="project-status">
+                  {project.status}
+                </span>
+              )}
                 <p className="project-description">
                   {project.description}
                 </p>
@@ -29,9 +33,15 @@ const Projects = () => {
               </div>
 
               <div className="project-links">
-                <a href={project.githubUrl}>
-                  GitHub →
-                </a>
+               {project.githubUrl && (
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitHub →
+  </a>
+)}
 
                 {project.liveUrl && (
                   <a href={project.liveUrl}>

@@ -20,11 +20,13 @@ const Hero = () => {
         </p>
 
         <div className="hero-actions">
-          <a href="#projects" className="primary-button">
+          <a href="https://github.com/Jonish96" className="primary-button">
             View My Work
           </a>
 
-          <a href="/resume.pdf" className="secondary-button">
+          <a href="/jonish_resume.pdf" 
+          download="jonish_resume.pdf"
+          className="secondary-button">
             Download Resume
           </a>
         </div>

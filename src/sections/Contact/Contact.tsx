@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="contact-links">
           <a
-            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgmKzxXNxGxWvSQPLPHNmgdxZBTwGPGvHGfhsWJTvSrlMDtsJMxrnLgBMvsWfCQKSJzcL"
+            href="mailto:jonishprajapati6@gmail.com"
             className="primary-button"
           >
             Email Me
