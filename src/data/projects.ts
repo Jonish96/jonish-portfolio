@@ -49,4 +49,17 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Jonish96/java-engineering-labs",
   },
+   {
+    id: 4,
+    title: "TokenFlow",
+    description:
+      "An open-source Spring Boot project demonstrating secure JWT authentication, automatic access token renewal, refresh token management, and concurrency control to prevent token refresh stampedes and unexpected user logouts.",
+    technologies: [
+      "Java 21",
+      "Collections",
+      "JWT",
+      "Spring Security",
+    ],
+    githubUrl: "https://github.com/Jonish96/tokenflow",
+  }
 ];
